@@ -13,7 +13,7 @@ def serialize_dict(j):
 
 class ServiceNowClient():
 
-    def __init__(self,username,password,api_url='https://scprod.service-now.com/api/now/v2/',response_format='json'):
+    def __init__(self,username,password,api_url='https://yourdomain.service-now.com/api/now/v2/',response_format='json'):
         """
         username:        service now username
         password:        service now password
